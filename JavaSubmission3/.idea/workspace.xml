@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ed6ddc-14c9-4a7a-a5eb-69ee2d5511b0" name="Default Changelist" comment="" />
+    <list default="true" id="82ed6ddc-14c9-4a7a-a5eb-69ee2d5511b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Question4/ModifierThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Question4/ModifierThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Question4/ReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Question4/ReaderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Question5/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Question5/Question5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YnOfUxOYkOvZbmQ5Ir5xITToZ5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../CodeStuff/test/Submission/JavaSubmission3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -34,20 +45,7 @@
       <recent name="main.java.Question1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question4">
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Question1.Question1" />
-      <module name="JavaSubmission3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.Question1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Question5">
     <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Question2.Question2" />
       <module name="JavaSubmission3" />
@@ -87,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Question5.Question5" />
+      <module name="JavaSubmission3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Question5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Question7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Question7.Question7" />
       <module name="JavaSubmission3" />
@@ -102,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question5" />
         <item itemvalue="Application.Question4" />
         <item itemvalue="Application.Question7" />
         <item itemvalue="Application.Question3" />
         <item itemvalue="Application.Question2" />
-        <item itemvalue="Application.Question1" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583574994791</updated>
       <workItem from="1583574998890" duration="6882000" />
+      <workItem from="1583583416984" duration="685000" />
     </task>
     <servers />
   </component>
@@ -152,22 +164,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583583279406" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583583285311">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583584081856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583583285311" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583583285311">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583584081856" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583584081856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583583285311" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583583285311">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583584081856" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583584081856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583583285311" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583583285311">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583584081856" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583584081856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583583285311" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583584081856" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583583799807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583583799807" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,6 +192,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Question7/removeList.java</url>
           <line>37</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Question5/ModifierThread2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

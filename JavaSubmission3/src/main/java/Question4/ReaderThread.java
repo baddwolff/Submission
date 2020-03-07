@@ -5,14 +5,14 @@ import java.util.List;
 
 public class ReaderThread implements Runnable{
     List ls;
-    ReaderThread(List<Employee> ls){
+    public ReaderThread(List<Employee> ls){
         this.ls=ls;
     }
     @Override
     public void run() {
         while (true){
             synchronized (ls){
-
+                System.out.println("printing");
                 Iterator iter = ls.iterator();
                 if(iter == null){
                     System.exit(1);

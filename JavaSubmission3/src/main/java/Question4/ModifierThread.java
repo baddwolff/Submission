@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ModifierThread implements Runnable {
     List ls;
-    ModifierThread(List<Employee> ls){
+    public ModifierThread(List<Employee> ls){
         this.ls=ls;
     }
     @Override
