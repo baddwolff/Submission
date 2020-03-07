@@ -1,5 +1,6 @@
 package main.java.Question4;
 
+import java.util.Iterator;
 import java.util.List;
 
 public class ReaderThread implements Runnable{
@@ -10,9 +11,19 @@ public class ReaderThread implements Runnable{
     @Override
     public void run() {
         while (true){
-            ls.forEach(item->item.toString());
+            synchronized (ls){
+
+                Iterator iter = ls.iterator();
+                if(iter == null){
+                    System.exit(1);
+                }
+                while(iter.hasNext()){
+                    System.out.println(iter.next().toString());
+
+                }
+            }
             try {
-                Thread.sleep(100);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

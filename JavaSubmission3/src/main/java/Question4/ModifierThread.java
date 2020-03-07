@@ -10,7 +10,10 @@ public class ModifierThread implements Runnable {
     @Override
     public void run() {
         while (true){
-            ls.add(new Employee("a",1,1,"b"));
+            synchronized (ls){
+                ls.add(new Employee("a",1,1,"b"));
+                System.out.println("added");
+            }
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {

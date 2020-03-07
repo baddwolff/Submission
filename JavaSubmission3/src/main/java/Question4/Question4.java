@@ -1,11 +1,17 @@
 package main.java.Question4;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Question4 {
-    public static volatile List<Employee> ls= new ArrayList<>();
+//    public static volatile List<Employee> ls= new ArrayList<>();
+
+
+
     public static void main(String args[]){
+        List<Employee> ls =
+                Collections.synchronizedList(new ArrayList<Employee>());
         ls.add(new Employee("a",1,1,"b"));
         ReaderThread ob1= new ReaderThread(ls);
         ModifierThread ob2 =new ModifierThread(ls);
