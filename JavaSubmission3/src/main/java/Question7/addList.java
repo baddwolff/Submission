@@ -3,25 +3,33 @@ package main.java.Question7;
 import java.util.List;
 
 public class addList implements Runnable {
-    SharedList ls;
+    List<Integer> ls;
 
-    public addList(SharedList ls) {
+    public addList(List<Integer> ls) {
         this.ls = ls;
     }
 
     @Override
     public void run() {
-        int i=0;
-        try {
-            while (true){
-                ls.addList(i);
-                System.out.println("added");
-                Thread.sleep(1000);
+        while (true){
+            synchronized (ls){
+                int i=0;
+                try {
+                    ls.add(i);
+
+                    System.out.println("added");
+                }
+                catch(Exception e)
+                {
+                    System.out.println("Interrupted exception " + e);
+                }
             }
-        }
-        catch(Exception e)
-        {
-            System.out.println("Interrupted exception " + e);
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
     }

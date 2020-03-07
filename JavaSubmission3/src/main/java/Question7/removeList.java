@@ -1,25 +1,45 @@
 package main.java.Question7;
 
-public class removeList implements Runnable {
-    SharedList ls;
+import java.util.Iterator;
+import java.util.List;
 
-    public removeList(SharedList ls) {
+public class removeList implements Runnable {
+    List<Integer> ls;
+
+
+
+    public removeList(List<Integer> ls) {
         this.ls = ls;
     }
 
     @Override
     public void run() {
-        int i=0;
-        try {
-            while (true){
-                ls.removeList(i);
-                System.out.println("removed");
-                Thread.sleep(1000);
+        while (true) {
+            synchronized (ls) {
+                int i = 0;
+                try {
+                    Iterator iter = ls.iterator();
+                    if (iter == null) {
+                        System.exit(1);
+                    }
+                    while (iter.hasNext()) {
+//                        System.out.println(iter.next());
+                        iter.next();
+                        iter.remove();
+                        System.out.println("removed");
+                    }
+
+                    Thread.sleep(1000);
+
+                } catch (Exception e) {
+                    System.out.println("Interrupted exception " + e);
+                }
             }
-        }
-        catch(Exception e)
-        {
-            System.out.println("Interrupted exception " + e);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
     }

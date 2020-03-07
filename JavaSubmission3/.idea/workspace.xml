@@ -33,7 +33,7 @@
       <recent name="main.java.Question1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question4">
+  <component name="RunManager" selected="Application.Question7">
     <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Question1.Question1" />
       <module name="JavaSubmission3" />
@@ -86,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Question7.Question7" />
+      <module name="JavaSubmission3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Question7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question7" />
         <item itemvalue="Application.Question4" />
         <item itemvalue="Application.Question3" />
         <item itemvalue="Application.Question2" />
@@ -117,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583574994791</updated>
-      <workItem from="1583574998890" duration="4614000" />
+      <workItem from="1583574998890" duration="6421000" />
     </task>
     <servers />
   </component>
@@ -133,21 +147,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583580564358" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583580818757">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583582803528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583580818757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583580818757">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583582803528" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583582803528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583580818757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583580818757">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583582803528" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583582803528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583580818757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583580818757">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583582803528" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583582803528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583580818757" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583582803528" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Question7/removeList.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

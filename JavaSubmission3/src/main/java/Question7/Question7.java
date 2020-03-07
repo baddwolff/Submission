@@ -9,15 +9,16 @@ public class Question7 {
 
         List<Integer> list =
                 Collections.synchronizedList(new ArrayList<Integer>());
+        list.add(1);
 
-        SharedList ls=new SharedList(list);
-        addList o1=new addList(ls);
-        removeList o2=new removeList(ls);
+        addList o1=new addList(list);
+        removeList o2=new removeList(list);
         Thread t1=new Thread(o1);
         Thread t2=new Thread(o2);
 
         t1.start();
         t2.start();
+
 
     }
 }

@@ -13,9 +13,11 @@ public class SharedList {
 
     public synchronized  void  addList(Integer s){
         list.add(s);
+        System.out.println("here");
     }
 
     public synchronized  void  removeList(Integer s){
         list.remove(s);
+        System.out.println();
     }
 }
