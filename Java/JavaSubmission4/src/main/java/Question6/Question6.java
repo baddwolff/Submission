@@ -21,9 +21,6 @@ public class Question6 {
         ls.add(new Employee("a",1,1,"b"));
         Lock lock = new ReentrantLock();
 
-
-
-
         FutureTask<Integer> reader =
                 new FutureTask<Integer>(new Callable<Integer>() {
                     public Integer call() throws InterruptedException {
