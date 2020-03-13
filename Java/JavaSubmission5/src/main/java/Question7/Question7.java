@@ -15,6 +15,7 @@ public class Question7 {
                     public Integer call() throws InterruptedException {
                         Thread.sleep(1000);
                         while(true){
+                                
                             System.out.println("even:"+val.get());
                             val.set(val.get()+1);
                             queue.take();
